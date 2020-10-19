@@ -1,0 +1,23 @@
+{
+  "name": "Shelter",
+  "version": "1.0.0",
+  "scripts": {
+    "build:js": "watchify assets/src/js/main_1.js -o 'exorcist assets/dist/js/main_1.js.map > assets/dist/js/main_1.js' -d -t [babelify --presets [latest]]",
+    "build:scss": "node-sass -w -r assets/src/scss/ -o assets/dist/css/",
+    "build": "npm run build:scss & npm run build:js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-latest": "^6.16.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "exorcist": "^0.4.0",
+    "node-sass": "^4.5.0",
+    "watchify": "^3.7.0"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
