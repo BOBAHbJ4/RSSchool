@@ -1,0 +1,22 @@
+{
+  "name": "caesar-cipher-cli-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BOBAHbJ4/Caesar-cipher-CLI-tool"
+  },
+  "author": "Uladzimir Mintsevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BOBAHbJ4/Caesar-cipher-CLI-tool"
+  },
+  "homepage": "https://github.com/BOBAHbJ4/Caesar-cipher-CLI-tool",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}

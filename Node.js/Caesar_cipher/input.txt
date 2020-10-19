@@ -1,0 +1,2 @@
+This is secret. Message about "_" symbol!
+Action (encode/decode) and the shift are required, if one of them missed - an error should be shown, the process should exit with non-zero status code.
